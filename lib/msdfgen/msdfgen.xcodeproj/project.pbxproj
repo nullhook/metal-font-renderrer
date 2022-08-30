@@ -1,0 +1,1557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BE967A48BCA94954B8687AEB /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5AEE35E58C154128AAE83E1C /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				F124BCA012A4469494920679 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D992675664474C5486DD6227 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 51EB81F1D8A74D0AA08F2F3B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				CBF3E13483EAD58AA0F6D735 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				1D8BD010060549548A2FCAE9 /* PBXTargetDependency */,
+				4D89E435A7444DA5A392CACC /* PBXTargetDependency */,
+				DF5421D58107448DB8993D35 /* PBXTargetDependency */,
+				0F30404CB952446E91FA673F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E9DB5667D1D44BF292A77802 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0682FB9265E44CD19B645F1D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5A510674708E294F42C84A70 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		017508B8AA0D49FBBA21EB03 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Vector2.h */ = {isa = PBXBuildFile; fileRef = A96447359CB04667855E1542 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Vector2.h */; };
+		0305ACD85F9A40318144C01B /* /Users/taher/github/sdf-font/lib/msdfgen/msdfgen.h */ = {isa = PBXBuildFile; fileRef = D9347D1875724BA09067C106 /* /Users/taher/github/sdf-font/lib/msdfgen/msdfgen.h */; };
+		066C3FCD3DD746D39FDFCDB6 /* /Users/taher/github/sdf-font/lib/msdfgen/core/equation-solver.cpp */ = {isa = PBXBuildFile; fileRef = 2114987EE81B4BF2ABA9E1E8 /* /Users/taher/github/sdf-font/lib/msdfgen/core/equation-solver.cpp */; };
+		09386BE2F833400183A7D400 /* /Users/taher/github/sdf-font/lib/msdfgen/core/contour-combiners.cpp */ = {isa = PBXBuildFile; fileRef = 2291E3677E1D4AB486CC58E1 /* /Users/taher/github/sdf-font/lib/msdfgen/core/contour-combiners.cpp */; };
+		09E69B309CDF4DDF943E8144 /* /Users/taher/github/sdf-font/lib/msdfgen/core/EdgeHolder.h */ = {isa = PBXBuildFile; fileRef = B99B3B25B8BC4F2191CF0CEC /* /Users/taher/github/sdf-font/lib/msdfgen/core/EdgeHolder.h */; };
+		0E522457EAE34843953D52E9 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Shape.h */ = {isa = PBXBuildFile; fileRef = 45509A8231C3444B84026143 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Shape.h */; };
+		0FF54237B66E4C6B84CA3A29 /* /Users/taher/github/sdf-font/lib/msdfgen/core/ShapeDistanceFinder.h */ = {isa = PBXBuildFile; fileRef = 94C60F6D904342069DBDE36B /* /Users/taher/github/sdf-font/lib/msdfgen/core/ShapeDistanceFinder.h */; };
+		17B666AB8F83495889BF01DA /* /Users/taher/github/sdf-font/lib/msdfgen/core/rasterization.cpp */ = {isa = PBXBuildFile; fileRef = C7A51BE473304F7B9753A554 /* /Users/taher/github/sdf-font/lib/msdfgen/core/rasterization.cpp */; };
+		18CB904B25874CDC8B4E497A /* /Users/taher/github/sdf-font/lib/msdfgen/core/sdf-error-estimation.cpp */ = {isa = PBXBuildFile; fileRef = E27F44FC836C4DA598648D8B /* /Users/taher/github/sdf-font/lib/msdfgen/core/sdf-error-estimation.cpp */; };
+		26192DC2763D46BA9CC1FBF1 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Projection.h */ = {isa = PBXBuildFile; fileRef = FB103E2BE0B6472899EC2D44 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Projection.h */; };
+		26DF7BF86969415DBC54D861 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/save-png.h */ = {isa = PBXBuildFile; fileRef = 21E890B0ACF743DE8DFB2276 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/save-png.h */; };
+		2B8A20112E4D41A5876D1A1F /* /Users/taher/github/sdf-font/lib/msdfgen/core/Shape.cpp */ = {isa = PBXBuildFile; fileRef = FEDF3E4420044132AAB9F1E0 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Shape.cpp */; };
+		2C76BA09D0FA4FFCA13DF335 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/resolve-shape-geometry.cpp */ = {isa = PBXBuildFile; fileRef = 346DA5B98F1F4C95801CBF2C /* /Users/taher/github/sdf-font/lib/msdfgen/ext/resolve-shape-geometry.cpp */; };
+		2CEB0A6BB30F4CF0A94A4A20 /* /Users/taher/github/sdf-font/lib/msdfgen/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D8EA5F5731C34A709E9BBEFE /* /Users/taher/github/sdf-font/lib/msdfgen/CMakeLists.txt */; };
+		2F7EC1745EF349588635E050 /* /Users/taher/github/sdf-font/lib/msdfgen/core/BitmapRef.hpp */ = {isa = PBXBuildFile; fileRef = B1C91198209D4B99B1A04DCD /* /Users/taher/github/sdf-font/lib/msdfgen/core/BitmapRef.hpp */; };
+		32CE08A0985F4FB9816C83DC /* /Users/taher/github/sdf-font/lib/msdfgen/core/equation-solver.h */ = {isa = PBXBuildFile; fileRef = 1D4878DF19CC477381C44F77 /* /Users/taher/github/sdf-font/lib/msdfgen/core/equation-solver.h */; };
+		33309AACCD994FF3B19E9DF2 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-svg.cpp */ = {isa = PBXBuildFile; fileRef = 377D555A2B084458814CC167 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-svg.cpp */; };
+		37DB6C52999744C2A0E77E5F /* /Users/taher/github/sdf-font/lib/msdfgen/core/msdf-error-correction.cpp */ = {isa = PBXBuildFile; fileRef = E645EDA2ABE541C49A7BE771 /* /Users/taher/github/sdf-font/lib/msdfgen/core/msdf-error-correction.cpp */; };
+		48553F386B244003A245E55A /* /Users/taher/github/sdf-font/lib/msdfgen/lib/lodepng.cpp */ = {isa = PBXBuildFile; fileRef = C3FB3DE9D9924FBDA4245A93 /* /Users/taher/github/sdf-font/lib/msdfgen/lib/lodepng.cpp */; };
+		497A839CB8184A669F59E28A /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-segments.h */ = {isa = PBXBuildFile; fileRef = D7F4B77AA7CD4ED1B34EA9D5 /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-segments.h */; };
+		4E38DFA1DC034ED4B9A8205B /* /Users/taher/github/sdf-font/lib/msdfgen/core/arithmetics.hpp */ = {isa = PBXBuildFile; fileRef = 8F7C8FE2598747CCAD4AD001 /* /Users/taher/github/sdf-font/lib/msdfgen/core/arithmetics.hpp */; };
+		52B0E040471B4A20915B3879 /* /Users/taher/github/sdf-font/lib/msdfgen/core/shape-description.cpp */ = {isa = PBXBuildFile; fileRef = D3019D2AD36A4F6C97B716C3 /* /Users/taher/github/sdf-font/lib/msdfgen/core/shape-description.cpp */; };
+		5423B7E5A75643DF85490279 /* /Users/taher/github/sdf-font/lib/msdfgen/core/bitmap-interpolation.hpp */ = {isa = PBXBuildFile; fileRef = 9E45C84A9DA148C38192CB54 /* /Users/taher/github/sdf-font/lib/msdfgen/core/bitmap-interpolation.hpp */; };
+		55292E21491C4B49B34BECE1 /* /Users/taher/github/sdf-font/lib/msdfgen/core/render-sdf.h */ = {isa = PBXBuildFile; fileRef = 4BB819CB7C6D4A95BBF20FBF /* /Users/taher/github/sdf-font/lib/msdfgen/core/render-sdf.h */; };
+		5987C0E5450A4DBF931F6372 /* /Users/taher/github/sdf-font/lib/msdfgen/core/SignedDistance.cpp */ = {isa = PBXBuildFile; fileRef = 3D6917B40ACB40BFB6E57FC7 /* /Users/taher/github/sdf-font/lib/msdfgen/core/SignedDistance.cpp */; };
+		5D2DC8606E8C422DA5884D6F /* /Users/taher/github/sdf-font/lib/msdfgen/lib/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = D4463D1E22CF4ED0A5998AA0 /* /Users/taher/github/sdf-font/lib/msdfgen/lib/tinyxml2.cpp */; };
+		6549C6E32FFD454EBFB9E0D7 /* /Users/taher/github/sdf-font/lib/msdfgen/core/generator-config.h */ = {isa = PBXBuildFile; fileRef = BCC8AC57AD87478085EF6D2E /* /Users/taher/github/sdf-font/lib/msdfgen/core/generator-config.h */; };
+		66254B6B75C948F981CB76A5 /* /Users/taher/github/sdf-font/lib/msdfgen/core/sdf-error-estimation.h */ = {isa = PBXBuildFile; fileRef = 9E402402F0B244BDBF65C8DA /* /Users/taher/github/sdf-font/lib/msdfgen/core/sdf-error-estimation.h */; };
+		7430777FE7534FC4BD418963 /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-segments.cpp */ = {isa = PBXBuildFile; fileRef = 3BE282817CCE487E8E8BEB0D /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-segments.cpp */; };
+		7879D935A14545028E018E85 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Contour.cpp */ = {isa = PBXBuildFile; fileRef = 06687C1B38C345868088D673 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Contour.cpp */; };
+		7D1BE20FC858481AB0BAA8B7 /* /Users/taher/github/sdf-font/lib/msdfgen/core/contour-combiners.h */ = {isa = PBXBuildFile; fileRef = 09E7DB1E5B32489DAF1A8B9A /* /Users/taher/github/sdf-font/lib/msdfgen/core/contour-combiners.h */; };
+		7E57152D1FB2429EA8EFF2DB /* /Users/taher/github/sdf-font/lib/msdfgen/ext/resolve-shape-geometry.h */ = {isa = PBXBuildFile; fileRef = 3CF212E0322A418E9304CCEB /* /Users/taher/github/sdf-font/lib/msdfgen/ext/resolve-shape-geometry.h */; };
+		81290FE9DB974819BB95DD18 /* /Users/taher/github/sdf-font/lib/msdfgen/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BC90DD07B8EF4C55B189509C /* /Users/taher/github/sdf-font/lib/msdfgen/CMakeLists.txt */; };
+		828112B739AC49E484AEE02B /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-coloring.cpp */ = {isa = PBXBuildFile; fileRef = 650A91D5F1EB4C48BD3012FF /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-coloring.cpp */; };
+		8575E63EA45849B5A3CFDD20 /* /Users/taher/github/sdf-font/lib/msdfgen/core/rasterization.h */ = {isa = PBXBuildFile; fileRef = EC2300006A9B4B8CB4282FCF /* /Users/taher/github/sdf-font/lib/msdfgen/core/rasterization.h */; };
+		88FCF6154B2A469D929AE8F9 /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-selectors.h */ = {isa = PBXBuildFile; fileRef = B0E029A6117B4B69B212A123 /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-selectors.h */; };
+		8A31EF81952A4F92A3D72ED3 /* /Users/taher/github/sdf-font/lib/msdfgen/core/msdf-error-correction.h */ = {isa = PBXBuildFile; fileRef = 5BD68309F2A24B7D9D725FC2 /* /Users/taher/github/sdf-font/lib/msdfgen/core/msdf-error-correction.h */; };
+		8EDE75F79D914FA8ACFC4115 /* /Users/taher/github/sdf-font/lib/msdfgen/main.cpp */ = {isa = PBXBuildFile; fileRef = ACF86DE9378F4B95A15C68C4 /* /Users/taher/github/sdf-font/lib/msdfgen/main.cpp */; };
+		902FBC4E599D43FA9358D9E5 /* /Users/taher/github/sdf-font/lib/msdfgen/core/MSDFErrorCorrection.h */ = {isa = PBXBuildFile; fileRef = 4C682E262D8D43AB93306CBB /* /Users/taher/github/sdf-font/lib/msdfgen/core/MSDFErrorCorrection.h */; };
+		9499943D230346BFBD36D930 /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-tiff.h */ = {isa = PBXBuildFile; fileRef = 9189C719BDA24767BE7646E0 /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-tiff.h */; };
+		951C29B400474D4ABB20266F /* /Users/taher/github/sdf-font/lib/msdfgen/core/Projection.cpp */ = {isa = PBXBuildFile; fileRef = 75A835463889479D951D832E /* /Users/taher/github/sdf-font/lib/msdfgen/core/Projection.cpp */; };
+		A0D36A10B38D4C7A96B9CC5B /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-bmp.h */ = {isa = PBXBuildFile; fileRef = 251ED9A1963B4C27BE11385E /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-bmp.h */; };
+		A35DD13AB3314D8098B088D6 /* /Users/taher/github/sdf-font/lib/msdfgen/core/shape-description.h */ = {isa = PBXBuildFile; fileRef = CE435915EE5144959E99377D /* /Users/taher/github/sdf-font/lib/msdfgen/core/shape-description.h */; };
+		A7659DF59EE74C149AAC2AED /* /Users/taher/github/sdf-font/lib/msdfgen/ext/save-png.cpp */ = {isa = PBXBuildFile; fileRef = B19E443A4209423F9FC78B6A /* /Users/taher/github/sdf-font/lib/msdfgen/ext/save-png.cpp */; };
+		A8008DEFFE064B799C477AD7 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Bitmap.h */ = {isa = PBXBuildFile; fileRef = 95458A383EA7478DA7C98FD4 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Bitmap.h */; };
+		AB26B70AE7DB472BAC319FDB /* /Users/taher/github/sdf-font/lib/msdfgen/core/Vector2.cpp */ = {isa = PBXBuildFile; fileRef = E63456E34B4147E599956DAC /* /Users/taher/github/sdf-font/lib/msdfgen/core/Vector2.cpp */; };
+		B2CDA7771BA74B83AAEF1052 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Bitmap.hpp */ = {isa = PBXBuildFile; fileRef = C8E4AA6859244CBAA8E49C1A /* /Users/taher/github/sdf-font/lib/msdfgen/core/Bitmap.hpp */; };
+		BBEDA4DF4ECF4F5EB9061CAC /* /Users/taher/github/sdf-font/lib/msdfgen/core/ShapeDistanceFinder.hpp */ = {isa = PBXBuildFile; fileRef = 65F06F5EE27446399B1C2E42 /* /Users/taher/github/sdf-font/lib/msdfgen/core/ShapeDistanceFinder.hpp */; };
+		BFA65343F33947EAA55B9A34 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Contour.h */ = {isa = PBXBuildFile; fileRef = EFFF78FA6E61491896F31530 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Contour.h */; };
+		C2DB8DEBE4BB4DC882B977B7 /* /Users/taher/github/sdf-font/lib/msdfgen/core/EdgeColor.h */ = {isa = PBXBuildFile; fileRef = 2B3796AE742441959F9AB515 /* /Users/taher/github/sdf-font/lib/msdfgen/core/EdgeColor.h */; };
+		C4F12D6532554A42B99F6375 /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-selectors.cpp */ = {isa = PBXBuildFile; fileRef = 4C18D5AB3B18405CBD9A6006 /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-selectors.cpp */; };
+		C590A983330F4E1F8BFB4D84 /* /Users/taher/github/sdf-font/lib/msdfgen/core/render-sdf.cpp */ = {isa = PBXBuildFile; fileRef = D680469889414435AE7960EB /* /Users/taher/github/sdf-font/lib/msdfgen/core/render-sdf.cpp */; };
+		CC482EA5962E43CFAB642528 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Scanline.h */ = {isa = PBXBuildFile; fileRef = 880A65BAB800405EA553497C /* /Users/taher/github/sdf-font/lib/msdfgen/core/Scanline.h */; };
+		D11F409137D446F78BA9C22F /* /Users/taher/github/sdf-font/lib/msdfgen/core/msdfgen.cpp */ = {isa = PBXBuildFile; fileRef = 000C5DCCB9424F06968FA03A /* /Users/taher/github/sdf-font/lib/msdfgen/core/msdfgen.cpp */; };
+		D29AFBF8F1D44539BF69D2D2 /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-coloring.h */ = {isa = PBXBuildFile; fileRef = F527341494DE4AA2AB3DE1FB /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-coloring.h */; };
+		D45D8392818245BB84D88CFE /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-font.h */ = {isa = PBXBuildFile; fileRef = 29436FFD8B73433CA6B5108C /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-font.h */; };
+		DA352F4F72EC4C57B590C2FB /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-font.cpp */ = {isa = PBXBuildFile; fileRef = 23E841CE897C4F63827343F5 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-font.cpp */; };
+		DB4155DB04CC4EC0B3063FB5 /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-bmp.cpp */ = {isa = PBXBuildFile; fileRef = B80DCA2C08174770907128E1 /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-bmp.cpp */; };
+		DCFCD246293B40E19BACD762 /* /Users/taher/github/sdf-font/lib/msdfgen/core/pixel-conversion.hpp */ = {isa = PBXBuildFile; fileRef = 8DD5DD180702464AB409D49E /* /Users/taher/github/sdf-font/lib/msdfgen/core/pixel-conversion.hpp */; };
+		E96386174C0E4897AB643895 /* /Users/taher/github/sdf-font/lib/msdfgen/core/EdgeHolder.cpp */ = {isa = PBXBuildFile; fileRef = 034FC472244741DDB521C61D /* /Users/taher/github/sdf-font/lib/msdfgen/core/EdgeHolder.cpp */; };
+		EA0108F7466348219C389D4A /* /Users/taher/github/sdf-font/lib/msdfgen/core/Scanline.cpp */ = {isa = PBXBuildFile; fileRef = D76DF4CD41464BF9BF86096A /* /Users/taher/github/sdf-font/lib/msdfgen/core/Scanline.cpp */; };
+		EA267CF4743D447C9AC95999 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-svg.h */ = {isa = PBXBuildFile; fileRef = 982C0601E6724677BE13B4B9 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-svg.h */; };
+		EB9EF911C3244E28BB9A3040 /* /Users/taher/github/sdf-font/lib/msdfgen/msdfgen-ext.h */ = {isa = PBXBuildFile; fileRef = EE968BB40FE64B65B4B36A43 /* /Users/taher/github/sdf-font/lib/msdfgen/msdfgen-ext.h */; };
+		ECE59226999547EF8C66AECD /* /Users/taher/github/sdf-font/lib/msdfgen/core/MSDFErrorCorrection.cpp */ = {isa = PBXBuildFile; fileRef = C3EA417B0995435A86D1C255 /* /Users/taher/github/sdf-font/lib/msdfgen/core/MSDFErrorCorrection.cpp */; };
+		F140647EABBF4DDA8F6205C6 /* /Users/taher/github/sdf-font/lib/msdfgen/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AAFD4714A41A45FF8644589F /* /Users/taher/github/sdf-font/lib/msdfgen/CMakeLists.txt */; };
+		F43D0879E39C470C868BF5E3 /* /Users/taher/github/sdf-font/lib/msdfgen/core/SignedDistance.h */ = {isa = PBXBuildFile; fileRef = 72E0CD4C77684578B5839B42 /* /Users/taher/github/sdf-font/lib/msdfgen/core/SignedDistance.h */; };
+		FB9AC78296814EDB8B7A865B /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-tiff.cpp */ = {isa = PBXBuildFile; fileRef = 24AB9FB445DD4E36A90BF5E3 /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-tiff.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0CBA43468D3847BDBA44CC6F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		485351EE6C304D75ACCC7FA2 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		71AE366781264F46AC57FDB3 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		ACA33A199B7140A2BD841F5D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		194E4955D1EE4F3FA21AF2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D397E5A8714E97B223219C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 813FC61ACA124BA69639C25C;
+			remoteInfo = "msdfgen-ext";
+		};
+		2CCD170A5B704B598898216B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D397E5A8714E97B223219C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9DB5667D1D44BF292A77802;
+			remoteInfo = ZERO_CHECK;
+		};
+		3B44145053724FA8B225A100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D397E5A8714E97B223219C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9DB5667D1D44BF292A77802;
+			remoteInfo = ZERO_CHECK;
+		};
+		3FB0D884EBE649629CCC3C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D397E5A8714E97B223219C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9DB5667D1D44BF292A77802;
+			remoteInfo = ZERO_CHECK;
+		};
+		4B1EE9008B6D40BA9527E664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D397E5A8714E97B223219C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A197F6534019417592853B5C;
+			remoteInfo = "msdfgen-core";
+		};
+		76366619DF3F4187816F869E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D397E5A8714E97B223219C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 813FC61ACA124BA69639C25C;
+			remoteInfo = "msdfgen-ext";
+		};
+		7F4460FA8C8741DF940D4D2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D397E5A8714E97B223219C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D992675664474C5486DD6227;
+			remoteInfo = ALL_BUILD;
+		};
+		9D00B82760C24D6FA516AAB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D397E5A8714E97B223219C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A197F6534019417592853B5C;
+			remoteInfo = "msdfgen-core";
+		};
+		A5C2A6CA9F0848E3B2DFE0B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D397E5A8714E97B223219C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A197F6534019417592853B5C;
+			remoteInfo = "msdfgen-core";
+		};
+		B8994BDD91474AE6983C7ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D397E5A8714E97B223219C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9DB5667D1D44BF292A77802;
+			remoteInfo = ZERO_CHECK;
+		};
+		CE68014FE65444E2B0F1E974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D397E5A8714E97B223219C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EC2C893DE134770804A3195;
+			remoteInfo = msdfgen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000C5DCCB9424F06968FA03A /* /Users/taher/github/sdf-font/lib/msdfgen/core/msdfgen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = msdfgen.cpp; path = core/msdfgen.cpp; sourceTree = SOURCE_ROOT; };
+		034FC472244741DDB521C61D /* /Users/taher/github/sdf-font/lib/msdfgen/core/EdgeHolder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = EdgeHolder.cpp; path = core/EdgeHolder.cpp; sourceTree = SOURCE_ROOT; };
+		06687C1B38C345868088D673 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Contour.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Contour.cpp; path = core/Contour.cpp; sourceTree = SOURCE_ROOT; };
+		09E7DB1E5B32489DAF1A8B9A /* /Users/taher/github/sdf-font/lib/msdfgen/core/contour-combiners.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "contour-combiners.h"; path = "core/contour-combiners.h"; sourceTree = SOURCE_ROOT; };
+		1D4878DF19CC477381C44F77 /* /Users/taher/github/sdf-font/lib/msdfgen/core/equation-solver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "equation-solver.h"; path = "core/equation-solver.h"; sourceTree = SOURCE_ROOT; };
+		2114987EE81B4BF2ABA9E1E8 /* /Users/taher/github/sdf-font/lib/msdfgen/core/equation-solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "equation-solver.cpp"; path = "core/equation-solver.cpp"; sourceTree = SOURCE_ROOT; };
+		21E890B0ACF743DE8DFB2276 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/save-png.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "save-png.h"; path = "ext/save-png.h"; sourceTree = SOURCE_ROOT; };
+		2291E3677E1D4AB486CC58E1 /* /Users/taher/github/sdf-font/lib/msdfgen/core/contour-combiners.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "contour-combiners.cpp"; path = "core/contour-combiners.cpp"; sourceTree = SOURCE_ROOT; };
+		23E841CE897C4F63827343F5 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-font.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "import-font.cpp"; path = "ext/import-font.cpp"; sourceTree = SOURCE_ROOT; };
+		24AB9FB445DD4E36A90BF5E3 /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-tiff.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "save-tiff.cpp"; path = "core/save-tiff.cpp"; sourceTree = SOURCE_ROOT; };
+		251ED9A1963B4C27BE11385E /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-bmp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "save-bmp.h"; path = "core/save-bmp.h"; sourceTree = SOURCE_ROOT; };
+		25AF0151D3134B67881FEEA8 /* /Users/taher/github/sdf-font/lib/msdfgen/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		29436FFD8B73433CA6B5108C /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-font.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "import-font.h"; path = "ext/import-font.h"; sourceTree = SOURCE_ROOT; };
+		2B3796AE742441959F9AB515 /* /Users/taher/github/sdf-font/lib/msdfgen/core/EdgeColor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EdgeColor.h; path = core/EdgeColor.h; sourceTree = SOURCE_ROOT; };
+		346DA5B98F1F4C95801CBF2C /* /Users/taher/github/sdf-font/lib/msdfgen/ext/resolve-shape-geometry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "resolve-shape-geometry.cpp"; path = "ext/resolve-shape-geometry.cpp"; sourceTree = SOURCE_ROOT; };
+		377D555A2B084458814CC167 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-svg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "import-svg.cpp"; path = "ext/import-svg.cpp"; sourceTree = SOURCE_ROOT; };
+		3BE282817CCE487E8E8BEB0D /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-segments.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "edge-segments.cpp"; path = "core/edge-segments.cpp"; sourceTree = SOURCE_ROOT; };
+		3CF212E0322A418E9304CCEB /* /Users/taher/github/sdf-font/lib/msdfgen/ext/resolve-shape-geometry.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "resolve-shape-geometry.h"; path = "ext/resolve-shape-geometry.h"; sourceTree = SOURCE_ROOT; };
+		3D6917B40ACB40BFB6E57FC7 /* /Users/taher/github/sdf-font/lib/msdfgen/core/SignedDistance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SignedDistance.cpp; path = core/SignedDistance.cpp; sourceTree = SOURCE_ROOT; };
+		45509A8231C3444B84026143 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Shape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Shape.h; path = core/Shape.h; sourceTree = SOURCE_ROOT; };
+		4BB819CB7C6D4A95BBF20FBF /* /Users/taher/github/sdf-font/lib/msdfgen/core/render-sdf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "render-sdf.h"; path = "core/render-sdf.h"; sourceTree = SOURCE_ROOT; };
+		4C18D5AB3B18405CBD9A6006 /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-selectors.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "edge-selectors.cpp"; path = "core/edge-selectors.cpp"; sourceTree = SOURCE_ROOT; };
+		4C682E262D8D43AB93306CBB /* /Users/taher/github/sdf-font/lib/msdfgen/core/MSDFErrorCorrection.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MSDFErrorCorrection.h; path = core/MSDFErrorCorrection.h; sourceTree = SOURCE_ROOT; };
+		5BD68309F2A24B7D9D725FC2 /* /Users/taher/github/sdf-font/lib/msdfgen/core/msdf-error-correction.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "msdf-error-correction.h"; path = "core/msdf-error-correction.h"; sourceTree = SOURCE_ROOT; };
+		650A91D5F1EB4C48BD3012FF /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-coloring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "edge-coloring.cpp"; path = "core/edge-coloring.cpp"; sourceTree = SOURCE_ROOT; };
+		65F06F5EE27446399B1C2E42 /* /Users/taher/github/sdf-font/lib/msdfgen/core/ShapeDistanceFinder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ShapeDistanceFinder.hpp; path = core/ShapeDistanceFinder.hpp; sourceTree = SOURCE_ROOT; };
+		72E0CD4C77684578B5839B42 /* /Users/taher/github/sdf-font/lib/msdfgen/core/SignedDistance.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SignedDistance.h; path = core/SignedDistance.h; sourceTree = SOURCE_ROOT; };
+		75A835463889479D951D832E /* /Users/taher/github/sdf-font/lib/msdfgen/core/Projection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Projection.cpp; path = core/Projection.cpp; sourceTree = SOURCE_ROOT; };
+		880A65BAB800405EA553497C /* /Users/taher/github/sdf-font/lib/msdfgen/core/Scanline.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Scanline.h; path = core/Scanline.h; sourceTree = SOURCE_ROOT; };
+		8DD5DD180702464AB409D49E /* /Users/taher/github/sdf-font/lib/msdfgen/core/pixel-conversion.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = "pixel-conversion.hpp"; path = "core/pixel-conversion.hpp"; sourceTree = SOURCE_ROOT; };
+		8F7C8FE2598747CCAD4AD001 /* /Users/taher/github/sdf-font/lib/msdfgen/core/arithmetics.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = arithmetics.hpp; path = core/arithmetics.hpp; sourceTree = SOURCE_ROOT; };
+		9189C719BDA24767BE7646E0 /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-tiff.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "save-tiff.h"; path = "core/save-tiff.h"; sourceTree = SOURCE_ROOT; };
+		94C60F6D904342069DBDE36B /* /Users/taher/github/sdf-font/lib/msdfgen/core/ShapeDistanceFinder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ShapeDistanceFinder.h; path = core/ShapeDistanceFinder.h; sourceTree = SOURCE_ROOT; };
+		95458A383EA7478DA7C98FD4 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Bitmap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Bitmap.h; path = core/Bitmap.h; sourceTree = SOURCE_ROOT; };
+		982C0601E6724677BE13B4B9 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-svg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "import-svg.h"; path = "ext/import-svg.h"; sourceTree = SOURCE_ROOT; };
+		9E402402F0B244BDBF65C8DA /* /Users/taher/github/sdf-font/lib/msdfgen/core/sdf-error-estimation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "sdf-error-estimation.h"; path = "core/sdf-error-estimation.h"; sourceTree = SOURCE_ROOT; };
+		9E45C84A9DA148C38192CB54 /* /Users/taher/github/sdf-font/lib/msdfgen/core/bitmap-interpolation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = "bitmap-interpolation.hpp"; path = "core/bitmap-interpolation.hpp"; sourceTree = SOURCE_ROOT; };
+		A96447359CB04667855E1542 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Vector2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vector2.h; path = core/Vector2.h; sourceTree = SOURCE_ROOT; };
+		AAFD4714A41A45FF8644589F /* /Users/taher/github/sdf-font/lib/msdfgen/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ACF86DE9378F4B95A15C68C4 /* /Users/taher/github/sdf-font/lib/msdfgen/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		B0E029A6117B4B69B212A123 /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-selectors.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "edge-selectors.h"; path = "core/edge-selectors.h"; sourceTree = SOURCE_ROOT; };
+		B19E443A4209423F9FC78B6A /* /Users/taher/github/sdf-font/lib/msdfgen/ext/save-png.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "save-png.cpp"; path = "ext/save-png.cpp"; sourceTree = SOURCE_ROOT; };
+		B1C91198209D4B99B1A04DCD /* /Users/taher/github/sdf-font/lib/msdfgen/core/BitmapRef.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = BitmapRef.hpp; path = core/BitmapRef.hpp; sourceTree = SOURCE_ROOT; };
+		B80DCA2C08174770907128E1 /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-bmp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "save-bmp.cpp"; path = "core/save-bmp.cpp"; sourceTree = SOURCE_ROOT; };
+		B99B3B25B8BC4F2191CF0CEC /* /Users/taher/github/sdf-font/lib/msdfgen/core/EdgeHolder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EdgeHolder.h; path = core/EdgeHolder.h; sourceTree = SOURCE_ROOT; };
+		BC90DD07B8EF4C55B189509C /* /Users/taher/github/sdf-font/lib/msdfgen/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BCC8AC57AD87478085EF6D2E /* /Users/taher/github/sdf-font/lib/msdfgen/core/generator-config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "generator-config.h"; path = "core/generator-config.h"; sourceTree = SOURCE_ROOT; };
+		C3EA417B0995435A86D1C255 /* /Users/taher/github/sdf-font/lib/msdfgen/core/MSDFErrorCorrection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MSDFErrorCorrection.cpp; path = core/MSDFErrorCorrection.cpp; sourceTree = SOURCE_ROOT; };
+		C3FB3DE9D9924FBDA4245A93 /* /Users/taher/github/sdf-font/lib/msdfgen/lib/lodepng.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lodepng.cpp; path = lib/lodepng.cpp; sourceTree = SOURCE_ROOT; };
+		C7A51BE473304F7B9753A554 /* /Users/taher/github/sdf-font/lib/msdfgen/core/rasterization.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rasterization.cpp; path = core/rasterization.cpp; sourceTree = SOURCE_ROOT; };
+		C8E4AA6859244CBAA8E49C1A /* /Users/taher/github/sdf-font/lib/msdfgen/core/Bitmap.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Bitmap.hpp; path = core/Bitmap.hpp; sourceTree = SOURCE_ROOT; };
+		CE435915EE5144959E99377D /* /Users/taher/github/sdf-font/lib/msdfgen/core/shape-description.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "shape-description.h"; path = "core/shape-description.h"; sourceTree = SOURCE_ROOT; };
+		D3019D2AD36A4F6C97B716C3 /* /Users/taher/github/sdf-font/lib/msdfgen/core/shape-description.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "shape-description.cpp"; path = "core/shape-description.cpp"; sourceTree = SOURCE_ROOT; };
+		D4463D1E22CF4ED0A5998AA0 /* /Users/taher/github/sdf-font/lib/msdfgen/lib/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = lib/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		D680469889414435AE7960EB /* /Users/taher/github/sdf-font/lib/msdfgen/core/render-sdf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "render-sdf.cpp"; path = "core/render-sdf.cpp"; sourceTree = SOURCE_ROOT; };
+		D76DF4CD41464BF9BF86096A /* /Users/taher/github/sdf-font/lib/msdfgen/core/Scanline.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Scanline.cpp; path = core/Scanline.cpp; sourceTree = SOURCE_ROOT; };
+		D7F4B77AA7CD4ED1B34EA9D5 /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-segments.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "edge-segments.h"; path = "core/edge-segments.h"; sourceTree = SOURCE_ROOT; };
+		D8EA5F5731C34A709E9BBEFE /* /Users/taher/github/sdf-font/lib/msdfgen/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D9347D1875724BA09067C106 /* /Users/taher/github/sdf-font/lib/msdfgen/msdfgen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = msdfgen.h; path = msdfgen.h; sourceTree = SOURCE_ROOT; };
+		DCDB984848B74E1187DEA39C /* msdfgen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = msdfgen; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6DA71777344C3A9C1E2EF3 /* msdfgen-core */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libmsdfgen-core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27F44FC836C4DA598648D8B /* /Users/taher/github/sdf-font/lib/msdfgen/core/sdf-error-estimation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "sdf-error-estimation.cpp"; path = "core/sdf-error-estimation.cpp"; sourceTree = SOURCE_ROOT; };
+		E63456E34B4147E599956DAC /* /Users/taher/github/sdf-font/lib/msdfgen/core/Vector2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vector2.cpp; path = core/Vector2.cpp; sourceTree = SOURCE_ROOT; };
+		E645EDA2ABE541C49A7BE771 /* /Users/taher/github/sdf-font/lib/msdfgen/core/msdf-error-correction.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "msdf-error-correction.cpp"; path = "core/msdf-error-correction.cpp"; sourceTree = SOURCE_ROOT; };
+		E7CD8EC455CC495CAD899554 /* msdfgen-ext */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libmsdfgen-ext.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2300006A9B4B8CB4282FCF /* /Users/taher/github/sdf-font/lib/msdfgen/core/rasterization.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rasterization.h; path = core/rasterization.h; sourceTree = SOURCE_ROOT; };
+		EE968BB40FE64B65B4B36A43 /* /Users/taher/github/sdf-font/lib/msdfgen/msdfgen-ext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "msdfgen-ext.h"; path = "msdfgen-ext.h"; sourceTree = SOURCE_ROOT; };
+		EFFF78FA6E61491896F31530 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Contour.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Contour.h; path = core/Contour.h; sourceTree = SOURCE_ROOT; };
+		F527341494DE4AA2AB3DE1FB /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-coloring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "edge-coloring.h"; path = "core/edge-coloring.h"; sourceTree = SOURCE_ROOT; };
+		FB103E2BE0B6472899EC2D44 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Projection.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Projection.h; path = core/Projection.h; sourceTree = SOURCE_ROOT; };
+		FEDF3E4420044132AAB9F1E0 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Shape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shape.cpp; path = core/Shape.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37603543913F48B89E1F42C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D94C1A17E3448F87D204DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC58BCB6D7245CCBB61A253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05527869FE6E43CC8DC777B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		199048F0DB8D44C6A6480AEF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACF86DE9378F4B95A15C68C4 /* /Users/taher/github/sdf-font/lib/msdfgen/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		29F0A230E5CA444999A11D15 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		455B8A5AD4E4496D91AC59FF /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				29436FFD8B73433CA6B5108C /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-font.h */,
+				982C0601E6724677BE13B4B9 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-svg.h */,
+				3CF212E0322A418E9304CCEB /* /Users/taher/github/sdf-font/lib/msdfgen/ext/resolve-shape-geometry.h */,
+				21E890B0ACF743DE8DFB2276 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/save-png.h */,
+				EE968BB40FE64B65B4B36A43 /* /Users/taher/github/sdf-font/lib/msdfgen/msdfgen-ext.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A6CA7A1ED276424CA0F1318A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				29F0A230E5CA444999A11D15 /* CMake Rules */,
+				25AF0151D3134B67881FEEA8 /* /Users/taher/github/sdf-font/lib/msdfgen/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		B0BCAA6D295847E181F164B8 = {
+			isa = PBXGroup;
+			children = (
+				C3D67152C9C74EE38698CA21 /* msdfgen-core */,
+				B7907F6202364460B7F561CA /* msdfgen-ext */,
+				E319F46058414ABA864E0AED /* msdfgen */,
+				A6CA7A1ED276424CA0F1318A /* ALL_BUILD */,
+				B482A5C907834FA5B3F11CB9 /* Products */,
+				05527869FE6E43CC8DC777B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B482A5C907834FA5B3F11CB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCDB984848B74E1187DEA39C /* msdfgen */,
+				DD6DA71777344C3A9C1E2EF3 /* msdfgen-core */,
+				E7CD8EC455CC495CAD899554 /* msdfgen-ext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B57F0817904F4275947F2B20 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				23E841CE897C4F63827343F5 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-font.cpp */,
+				377D555A2B084458814CC167 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-svg.cpp */,
+				346DA5B98F1F4C95801CBF2C /* /Users/taher/github/sdf-font/lib/msdfgen/ext/resolve-shape-geometry.cpp */,
+				B19E443A4209423F9FC78B6A /* /Users/taher/github/sdf-font/lib/msdfgen/ext/save-png.cpp */,
+				C3FB3DE9D9924FBDA4245A93 /* /Users/taher/github/sdf-font/lib/msdfgen/lib/lodepng.cpp */,
+				D4463D1E22CF4ED0A5998AA0 /* /Users/taher/github/sdf-font/lib/msdfgen/lib/tinyxml2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B7907F6202364460B7F561CA /* msdfgen-ext */ = {
+			isa = PBXGroup;
+			children = (
+				455B8A5AD4E4496D91AC59FF /* Header Files */,
+				B57F0817904F4275947F2B20 /* Source Files */,
+				BC90DD07B8EF4C55B189509C /* /Users/taher/github/sdf-font/lib/msdfgen/CMakeLists.txt */,
+			);
+			name = "msdfgen-ext";
+			sourceTree = "<group>";
+		};
+		C3D67152C9C74EE38698CA21 /* msdfgen-core */ = {
+			isa = PBXGroup;
+			children = (
+				D2EBA9A5CB134454BA688F8A /* Header Files */,
+				D3626DBE6BED470E944B45D8 /* Source Files */,
+				D8EA5F5731C34A709E9BBEFE /* /Users/taher/github/sdf-font/lib/msdfgen/CMakeLists.txt */,
+			);
+			name = "msdfgen-core";
+			sourceTree = "<group>";
+		};
+		D2EBA9A5CB134454BA688F8A /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				95458A383EA7478DA7C98FD4 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Bitmap.h */,
+				C8E4AA6859244CBAA8E49C1A /* /Users/taher/github/sdf-font/lib/msdfgen/core/Bitmap.hpp */,
+				B1C91198209D4B99B1A04DCD /* /Users/taher/github/sdf-font/lib/msdfgen/core/BitmapRef.hpp */,
+				EFFF78FA6E61491896F31530 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Contour.h */,
+				2B3796AE742441959F9AB515 /* /Users/taher/github/sdf-font/lib/msdfgen/core/EdgeColor.h */,
+				B99B3B25B8BC4F2191CF0CEC /* /Users/taher/github/sdf-font/lib/msdfgen/core/EdgeHolder.h */,
+				4C682E262D8D43AB93306CBB /* /Users/taher/github/sdf-font/lib/msdfgen/core/MSDFErrorCorrection.h */,
+				FB103E2BE0B6472899EC2D44 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Projection.h */,
+				880A65BAB800405EA553497C /* /Users/taher/github/sdf-font/lib/msdfgen/core/Scanline.h */,
+				45509A8231C3444B84026143 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Shape.h */,
+				94C60F6D904342069DBDE36B /* /Users/taher/github/sdf-font/lib/msdfgen/core/ShapeDistanceFinder.h */,
+				65F06F5EE27446399B1C2E42 /* /Users/taher/github/sdf-font/lib/msdfgen/core/ShapeDistanceFinder.hpp */,
+				72E0CD4C77684578B5839B42 /* /Users/taher/github/sdf-font/lib/msdfgen/core/SignedDistance.h */,
+				A96447359CB04667855E1542 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Vector2.h */,
+				8F7C8FE2598747CCAD4AD001 /* /Users/taher/github/sdf-font/lib/msdfgen/core/arithmetics.hpp */,
+				9E45C84A9DA148C38192CB54 /* /Users/taher/github/sdf-font/lib/msdfgen/core/bitmap-interpolation.hpp */,
+				09E7DB1E5B32489DAF1A8B9A /* /Users/taher/github/sdf-font/lib/msdfgen/core/contour-combiners.h */,
+				F527341494DE4AA2AB3DE1FB /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-coloring.h */,
+				D7F4B77AA7CD4ED1B34EA9D5 /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-segments.h */,
+				B0E029A6117B4B69B212A123 /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-selectors.h */,
+				1D4878DF19CC477381C44F77 /* /Users/taher/github/sdf-font/lib/msdfgen/core/equation-solver.h */,
+				BCC8AC57AD87478085EF6D2E /* /Users/taher/github/sdf-font/lib/msdfgen/core/generator-config.h */,
+				5BD68309F2A24B7D9D725FC2 /* /Users/taher/github/sdf-font/lib/msdfgen/core/msdf-error-correction.h */,
+				8DD5DD180702464AB409D49E /* /Users/taher/github/sdf-font/lib/msdfgen/core/pixel-conversion.hpp */,
+				EC2300006A9B4B8CB4282FCF /* /Users/taher/github/sdf-font/lib/msdfgen/core/rasterization.h */,
+				4BB819CB7C6D4A95BBF20FBF /* /Users/taher/github/sdf-font/lib/msdfgen/core/render-sdf.h */,
+				251ED9A1963B4C27BE11385E /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-bmp.h */,
+				9189C719BDA24767BE7646E0 /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-tiff.h */,
+				9E402402F0B244BDBF65C8DA /* /Users/taher/github/sdf-font/lib/msdfgen/core/sdf-error-estimation.h */,
+				CE435915EE5144959E99377D /* /Users/taher/github/sdf-font/lib/msdfgen/core/shape-description.h */,
+				D9347D1875724BA09067C106 /* /Users/taher/github/sdf-font/lib/msdfgen/msdfgen.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		D3626DBE6BED470E944B45D8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				06687C1B38C345868088D673 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Contour.cpp */,
+				034FC472244741DDB521C61D /* /Users/taher/github/sdf-font/lib/msdfgen/core/EdgeHolder.cpp */,
+				C3EA417B0995435A86D1C255 /* /Users/taher/github/sdf-font/lib/msdfgen/core/MSDFErrorCorrection.cpp */,
+				75A835463889479D951D832E /* /Users/taher/github/sdf-font/lib/msdfgen/core/Projection.cpp */,
+				D76DF4CD41464BF9BF86096A /* /Users/taher/github/sdf-font/lib/msdfgen/core/Scanline.cpp */,
+				FEDF3E4420044132AAB9F1E0 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Shape.cpp */,
+				3D6917B40ACB40BFB6E57FC7 /* /Users/taher/github/sdf-font/lib/msdfgen/core/SignedDistance.cpp */,
+				E63456E34B4147E599956DAC /* /Users/taher/github/sdf-font/lib/msdfgen/core/Vector2.cpp */,
+				2291E3677E1D4AB486CC58E1 /* /Users/taher/github/sdf-font/lib/msdfgen/core/contour-combiners.cpp */,
+				650A91D5F1EB4C48BD3012FF /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-coloring.cpp */,
+				3BE282817CCE487E8E8BEB0D /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-segments.cpp */,
+				4C18D5AB3B18405CBD9A6006 /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-selectors.cpp */,
+				2114987EE81B4BF2ABA9E1E8 /* /Users/taher/github/sdf-font/lib/msdfgen/core/equation-solver.cpp */,
+				E645EDA2ABE541C49A7BE771 /* /Users/taher/github/sdf-font/lib/msdfgen/core/msdf-error-correction.cpp */,
+				000C5DCCB9424F06968FA03A /* /Users/taher/github/sdf-font/lib/msdfgen/core/msdfgen.cpp */,
+				C7A51BE473304F7B9753A554 /* /Users/taher/github/sdf-font/lib/msdfgen/core/rasterization.cpp */,
+				D680469889414435AE7960EB /* /Users/taher/github/sdf-font/lib/msdfgen/core/render-sdf.cpp */,
+				B80DCA2C08174770907128E1 /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-bmp.cpp */,
+				24AB9FB445DD4E36A90BF5E3 /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-tiff.cpp */,
+				E27F44FC836C4DA598648D8B /* /Users/taher/github/sdf-font/lib/msdfgen/core/sdf-error-estimation.cpp */,
+				D3019D2AD36A4F6C97B716C3 /* /Users/taher/github/sdf-font/lib/msdfgen/core/shape-description.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E319F46058414ABA864E0AED /* msdfgen */ = {
+			isa = PBXGroup;
+			children = (
+				199048F0DB8D44C6A6480AEF /* Source Files */,
+				AAFD4714A41A45FF8644589F /* /Users/taher/github/sdf-font/lib/msdfgen/CMakeLists.txt */,
+			);
+			name = msdfgen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EC2C893DE134770804A3195 /* msdfgen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21462DE93C149D8AE08F088 /* Build configuration list for PBXNativeTarget "msdfgen" */;
+			buildPhases = (
+				2379C6F1B6BA45F2A57154E5 /* Sources */,
+				88D94C1A17E3448F87D204DB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CDA34D0F4014911A7DC5F39 /* PBXTargetDependency */,
+				64B8D31758C04E9B8242DE95 /* PBXTargetDependency */,
+				E4C5F053C9564570A19B8B56 /* PBXTargetDependency */,
+			);
+			name = msdfgen;
+			productName = msdfgen;
+			productReference = DCDB984848B74E1187DEA39C /* msdfgen */;
+			productType = "com.apple.product-type.tool";
+		};
+		813FC61ACA124BA69639C25C /* msdfgen-ext */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D87DF2165F45EFA66A6B84 /* Build configuration list for PBXNativeTarget "msdfgen-ext" */;
+			buildPhases = (
+				871ED5CF81AA44F6955C31D8 /* Sources */,
+				37603543913F48B89E1F42C1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2D184E0A4640FFA8725654 /* PBXTargetDependency */,
+				12DAB411C6024B9CBEAB50BE /* PBXTargetDependency */,
+			);
+			name = "msdfgen-ext";
+			productName = "msdfgen-ext";
+			productReference = E7CD8EC455CC495CAD899554 /* msdfgen-ext */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A197F6534019417592853B5C /* msdfgen-core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16997E5E5D92409198A224AF /* Build configuration list for PBXNativeTarget "msdfgen-core" */;
+			buildPhases = (
+				BAD75116839645FC8FF4EF72 /* Sources */,
+				9EC58BCB6D7245CCBB61A253 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				646884FEEC854511BFCBE9F0 /* PBXTargetDependency */,
+			);
+			name = "msdfgen-core";
+			productName = "msdfgen-core";
+			productReference = DD6DA71777344C3A9C1E2EF3 /* msdfgen-core */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8D397E5A8714E97B223219C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 4C154901F3C2494AA0F3B371 /* Build configuration list for PBXProject "msdfgen" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				0CBA43468D3847BDBA44CC6F /* Debug */,
+				ACA33A199B7140A2BD841F5D /* Release */,
+				485351EE6C304D75ACCC7FA2 /* MinSizeRel */,
+				71AE366781264F46AC57FDB3 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B0BCAA6D295847E181F164B8;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				D992675664474C5486DD6227 /* ALL_BUILD */,
+				E9DB5667D1D44BF292A77802 /* ZERO_CHECK */,
+				BE967A48BCA94954B8687AEB /* install */,
+				6EC2C893DE134770804A3195 /* msdfgen */,
+				A197F6534019417592853B5C /* msdfgen-core */,
+				813FC61ACA124BA69639C25C /* msdfgen-ext */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5A510674708E294F42C84A70 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/taher/github/sdf-font/lib/msdfgen/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/taher/github/sdf-font/lib/msdfgen
+  make -f /Users/taher/github/sdf-font/lib/msdfgen/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/taher/github/sdf-font/lib/msdfgen
+  make -f /Users/taher/github/sdf-font/lib/msdfgen/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/taher/github/sdf-font/lib/msdfgen
+  make -f /Users/taher/github/sdf-font/lib/msdfgen/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/taher/github/sdf-font/lib/msdfgen
+  make -f /Users/taher/github/sdf-font/lib/msdfgen/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/taher/github/sdf-font/lib/msdfgen
+  /opt/homebrew/Cellar/cmake/3.22.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/taher/github/sdf-font/lib/msdfgen
+  /opt/homebrew/Cellar/cmake/3.22.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/taher/github/sdf-font/lib/msdfgen
+  /opt/homebrew/Cellar/cmake/3.22.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/taher/github/sdf-font/lib/msdfgen
+  /opt/homebrew/Cellar/cmake/3.22.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CBF3E13483EAD58AA0F6D735 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/taher/github/sdf-font/lib/msdfgen/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/taher/github/sdf-font/lib/msdfgen
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/taher/github/sdf-font/lib/msdfgen
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/taher/github/sdf-font/lib/msdfgen
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/taher/github/sdf-font/lib/msdfgen
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2379C6F1B6BA45F2A57154E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDE75F79D914FA8ACFC4115 /* /Users/taher/github/sdf-font/lib/msdfgen/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871ED5CF81AA44F6955C31D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA352F4F72EC4C57B590C2FB /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-font.cpp */,
+				33309AACCD994FF3B19E9DF2 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/import-svg.cpp */,
+				2C76BA09D0FA4FFCA13DF335 /* /Users/taher/github/sdf-font/lib/msdfgen/ext/resolve-shape-geometry.cpp */,
+				A7659DF59EE74C149AAC2AED /* /Users/taher/github/sdf-font/lib/msdfgen/ext/save-png.cpp */,
+				48553F386B244003A245E55A /* /Users/taher/github/sdf-font/lib/msdfgen/lib/lodepng.cpp */,
+				5D2DC8606E8C422DA5884D6F /* /Users/taher/github/sdf-font/lib/msdfgen/lib/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD75116839645FC8FF4EF72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7879D935A14545028E018E85 /* /Users/taher/github/sdf-font/lib/msdfgen/core/Contour.cpp */,
+				E96386174C0E4897AB643895 /* /Users/taher/github/sdf-font/lib/msdfgen/core/EdgeHolder.cpp */,
+				ECE59226999547EF8C66AECD /* /Users/taher/github/sdf-font/lib/msdfgen/core/MSDFErrorCorrection.cpp */,
+				951C29B400474D4ABB20266F /* /Users/taher/github/sdf-font/lib/msdfgen/core/Projection.cpp */,
+				EA0108F7466348219C389D4A /* /Users/taher/github/sdf-font/lib/msdfgen/core/Scanline.cpp */,
+				2B8A20112E4D41A5876D1A1F /* /Users/taher/github/sdf-font/lib/msdfgen/core/Shape.cpp */,
+				5987C0E5450A4DBF931F6372 /* /Users/taher/github/sdf-font/lib/msdfgen/core/SignedDistance.cpp */,
+				AB26B70AE7DB472BAC319FDB /* /Users/taher/github/sdf-font/lib/msdfgen/core/Vector2.cpp */,
+				09386BE2F833400183A7D400 /* /Users/taher/github/sdf-font/lib/msdfgen/core/contour-combiners.cpp */,
+				828112B739AC49E484AEE02B /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-coloring.cpp */,
+				7430777FE7534FC4BD418963 /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-segments.cpp */,
+				C4F12D6532554A42B99F6375 /* /Users/taher/github/sdf-font/lib/msdfgen/core/edge-selectors.cpp */,
+				066C3FCD3DD746D39FDFCDB6 /* /Users/taher/github/sdf-font/lib/msdfgen/core/equation-solver.cpp */,
+				37DB6C52999744C2A0E77E5F /* /Users/taher/github/sdf-font/lib/msdfgen/core/msdf-error-correction.cpp */,
+				D11F409137D446F78BA9C22F /* /Users/taher/github/sdf-font/lib/msdfgen/core/msdfgen.cpp */,
+				17B666AB8F83495889BF01DA /* /Users/taher/github/sdf-font/lib/msdfgen/core/rasterization.cpp */,
+				C590A983330F4E1F8BFB4D84 /* /Users/taher/github/sdf-font/lib/msdfgen/core/render-sdf.cpp */,
+				DB4155DB04CC4EC0B3063FB5 /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-bmp.cpp */,
+				FB9AC78296814EDB8B7A865B /* /Users/taher/github/sdf-font/lib/msdfgen/core/save-tiff.cpp */,
+				18CB904B25874CDC8B4E497A /* /Users/taher/github/sdf-font/lib/msdfgen/core/sdf-error-estimation.cpp */,
+				52B0E040471B4A20915B3879 /* /Users/taher/github/sdf-font/lib/msdfgen/core/shape-description.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F30404CB952446E91FA673F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9DB5667D1D44BF292A77802 /* ZERO_CHECK */;
+			targetProxy = 3FB0D884EBE649629CCC3C30 /* PBXContainerItemProxy */;
+		};
+		12DAB411C6024B9CBEAB50BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9DB5667D1D44BF292A77802 /* ZERO_CHECK */;
+			targetProxy = 3B44145053724FA8B225A100 /* PBXContainerItemProxy */;
+		};
+		1CDA34D0F4014911A7DC5F39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A197F6534019417592853B5C /* msdfgen-core */;
+			targetProxy = 9D00B82760C24D6FA516AAB4 /* PBXContainerItemProxy */;
+		};
+		1D8BD010060549548A2FCAE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A197F6534019417592853B5C /* msdfgen-core */;
+			targetProxy = 4B1EE9008B6D40BA9527E664 /* PBXContainerItemProxy */;
+		};
+		4D89E435A7444DA5A392CACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 813FC61ACA124BA69639C25C /* msdfgen-ext */;
+			targetProxy = 194E4955D1EE4F3FA21AF2C8 /* PBXContainerItemProxy */;
+		};
+		646884FEEC854511BFCBE9F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9DB5667D1D44BF292A77802 /* ZERO_CHECK */;
+			targetProxy = 2CCD170A5B704B598898216B /* PBXContainerItemProxy */;
+		};
+		64B8D31758C04E9B8242DE95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 813FC61ACA124BA69639C25C /* msdfgen-ext */;
+			targetProxy = 76366619DF3F4187816F869E /* PBXContainerItemProxy */;
+		};
+		DB2D184E0A4640FFA8725654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A197F6534019417592853B5C /* msdfgen-core */;
+			targetProxy = A5C2A6CA9F0848E3B2DFE0B7 /* PBXContainerItemProxy */;
+		};
+		DF5421D58107448DB8993D35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EC2C893DE134770804A3195 /* msdfgen */;
+			targetProxy = CE68014FE65444E2B0F1E974 /* PBXContainerItemProxy */;
+		};
+		E4C5F053C9564570A19B8B56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9DB5667D1D44BF292A77802 /* ZERO_CHECK */;
+			targetProxy = B8994BDD91474AE6983C7ED5 /* PBXContainerItemProxy */;
+		};
+		F124BCA012A4469494920679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D992675664474C5486DD6227 /* ALL_BUILD */;
+			targetProxy = 7F4460FA8C8741DF940D4D2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C65F48C44C54644A745913B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MSDFGEN_USE_CPP11,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/taher/github/sdf-font/lib/msdfgen","/Users/taher/github/sdf-font/lib/msdfgen/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17 -fno-objc-arc     -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "msdfgen-ext";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include/freetype2,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		31DE09BBC2D645AC809C9E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3C327779DE59455699C57ABF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3C808BD9A3264CF3BA904FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MSDFGEN_USE_CPP11,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/taher/github/sdf-font/lib/msdfgen","/Users/taher/github/sdf-font/lib/msdfgen/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17 -fno-objc-arc     -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "msdfgen-ext";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include/freetype2,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3F68B34B7EEB429E87A24348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MSDFGEN_USE_CPP11,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17 -fno-objc-arc    '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "msdfgen-core";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		45D39AE4FC0649FE992739A7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MSDFGEN_USE_CPP11,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/taher/github/sdf-font/lib/msdfgen","/Users/taher/github/sdf-font/lib/msdfgen/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17 -fno-objc-arc        -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "msdfgen-ext";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include/freetype2,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4A953141F09E4248BF1DFA93 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5039771316954EC0AC69065A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MSDFGEN_STANDALONE,MSDFGEN_USE_CPP11,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/taher/github/sdf-font/lib/msdfgen","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17 -fno-objc-arc        -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/taher/github/sdf-font/lib/msdfgen/RelWithDebInfo/libmsdfgen-ext.a","/Users/taher/github/sdf-font/lib/msdfgen/RelWithDebInfo/libmsdfgen-core.a",/opt/homebrew/lib/libfreetype.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = msdfgen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include/freetype2,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		617D335FFA8645D6B0405F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MSDFGEN_USE_CPP11,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/taher/github/sdf-font/lib/msdfgen","/Users/taher/github/sdf-font/lib/msdfgen/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17 -fno-objc-arc    '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "msdfgen-ext";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include/freetype2,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		75A51C3D5EDD410CB907BE71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7796832EDD9E443FBB8B4182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		92320079C54A407AA557A3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		92B78CF5028C4F1F8386D98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen/build";
+			};
+			name = Release;
+		};
+		930D300E045A43CF9A74F350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MSDFGEN_STANDALONE,MSDFGEN_USE_CPP11,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/taher/github/sdf-font/lib/msdfgen","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17 -fno-objc-arc    '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/taher/github/sdf-font/lib/msdfgen/Debug/libmsdfgen-ext.a","/Users/taher/github/sdf-font/lib/msdfgen/Debug/libmsdfgen-core.a",/opt/homebrew/lib/libfreetype.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = msdfgen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include/freetype2,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		98BDA2B3772E47A783DB226D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen/build";
+			};
+			name = RelWithDebInfo;
+		};
+		AC01D878B50141EF9B0DDF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B1C1A550A4334AEEAD95FB16 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MSDFGEN_STANDALONE,MSDFGEN_USE_CPP11,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/taher/github/sdf-font/lib/msdfgen","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17 -fno-objc-arc     -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/taher/github/sdf-font/lib/msdfgen/MinSizeRel/libmsdfgen-ext.a","/Users/taher/github/sdf-font/lib/msdfgen/MinSizeRel/libmsdfgen-core.a",/opt/homebrew/lib/libfreetype.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = msdfgen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include/freetype2,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B951F59076E94CDDB8A9624D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C4760F30DCB84B6C9A8B4365 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C576528E35F94C338429B8BA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CB7BEC6B1D474D1A840E39A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MSDFGEN_STANDALONE,MSDFGEN_USE_CPP11,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/taher/github/sdf-font/lib/msdfgen","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17 -fno-objc-arc     -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/taher/github/sdf-font/lib/msdfgen/Release/libmsdfgen-ext.a","/Users/taher/github/sdf-font/lib/msdfgen/Release/libmsdfgen-core.a",/opt/homebrew/lib/libfreetype.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = msdfgen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include/freetype2,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CBE4439FC8AB40BBA6B8F78C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MSDFGEN_USE_CPP11,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17 -fno-objc-arc     -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "msdfgen-core";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D4645747354944C390D1F2E3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen/build";
+			};
+			name = MinSizeRel;
+		};
+		D4EAA7E425DC40CA836B2B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MSDFGEN_USE_CPP11,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17 -fno-objc-arc     -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "msdfgen-core";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E14F5130B2FB4E298A80F73F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",MSDFGEN_USE_CPP11,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17 -fno-objc-arc        -DNDEBUG '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "msdfgen-core";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E1A90077E6DB4D639DA05846 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F38F9571E153453E88629704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FB31C1ECBF514E0095909333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/taher/github/sdf-font/lib/msdfgen/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0682FB9265E44CD19B645F1D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC01D878B50141EF9B0DDF26 /* Debug */,
+				92320079C54A407AA557A3FA /* Release */,
+				E1A90077E6DB4D639DA05846 /* MinSizeRel */,
+				C4760F30DCB84B6C9A8B4365 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		16997E5E5D92409198A224AF /* Build configuration list for PBXNativeTarget "msdfgen-core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F68B34B7EEB429E87A24348 /* Debug */,
+				D4EAA7E425DC40CA836B2B5A /* Release */,
+				CBE4439FC8AB40BBA6B8F78C /* MinSizeRel */,
+				E14F5130B2FB4E298A80F73F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4C154901F3C2494AA0F3B371 /* Build configuration list for PBXProject "msdfgen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB31C1ECBF514E0095909333 /* Debug */,
+				92B78CF5028C4F1F8386D98B /* Release */,
+				D4645747354944C390D1F2E3 /* MinSizeRel */,
+				98BDA2B3772E47A783DB226D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		51EB81F1D8A74D0AA08F2F3B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38F9571E153453E88629704 /* Debug */,
+				75A51C3D5EDD410CB907BE71 /* Release */,
+				C576528E35F94C338429B8BA /* MinSizeRel */,
+				3C327779DE59455699C57ABF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5AEE35E58C154128AAE83E1C /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7796832EDD9E443FBB8B4182 /* Debug */,
+				31DE09BBC2D645AC809C9E16 /* Release */,
+				4A953141F09E4248BF1DFA93 /* MinSizeRel */,
+				B951F59076E94CDDB8A9624D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D4D87DF2165F45EFA66A6B84 /* Build configuration list for PBXNativeTarget "msdfgen-ext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617D335FFA8645D6B0405F8D /* Debug */,
+				3C808BD9A3264CF3BA904FB1 /* Release */,
+				2C65F48C44C54644A745913B /* MinSizeRel */,
+				45D39AE4FC0649FE992739A7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E21462DE93C149D8AE08F088 /* Build configuration list for PBXNativeTarget "msdfgen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930D300E045A43CF9A74F350 /* Debug */,
+				CB7BEC6B1D474D1A840E39A2 /* Release */,
+				B1C1A550A4334AEEAD95FB16 /* MinSizeRel */,
+				5039771316954EC0AC69065A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8D397E5A8714E97B223219C /* Project object */;
+}

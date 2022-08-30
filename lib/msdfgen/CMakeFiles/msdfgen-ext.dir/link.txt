@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libmsdfgen-ext.a CMakeFiles/msdfgen-ext.dir/ext/import-font.cpp.o CMakeFiles/msdfgen-ext.dir/ext/import-svg.cpp.o CMakeFiles/msdfgen-ext.dir/ext/resolve-shape-geometry.cpp.o CMakeFiles/msdfgen-ext.dir/ext/save-png.cpp.o CMakeFiles/msdfgen-ext.dir/lib/lodepng.cpp.o CMakeFiles/msdfgen-ext.dir/lib/tinyxml2.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libmsdfgen-ext.a
